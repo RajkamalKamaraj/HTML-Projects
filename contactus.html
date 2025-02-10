@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Rajkamal">
+        <meta name="purpose" content="Creating First Project">
+        <title> Little Taco Shop</title>
+        <link rel="icon" href="images/tacos_and_drink.png" type="image/png">
+        <style>
+            html {
+                 margin-left: 300px;
+                 margin-right: 300px;
+                 border-left: 2px solid green;
+                 border-right: 2px solid green;
+            }
+       </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Little Taco Shop</h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">About LTS</a> </li>
+                    <li> <a href="ourmenu.html">Our Menu</a></li>
+                    <li> <a href="storehours.html">Store Hours</a></li>
+                    <li> <a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="images/shop.jpg" alt="Little Taco Shop" title="Tacos and drink" loading="lazy" width="900" height="400">
+        </header>
+        <hr>
+        <main>
+            <article>
+                <section id="">
+                    <h1>Our Contact form</h1>
+                    <fieldset>
+                        <legend>
+                            Send us a message:
+                        </legend>
+                        <form action="https://httpbin.org/get" method="get">
+                            <p><label for="name"> Name : </label><input type="text" name="name" id="name" required autofocus></p>
+                            <p><label for="email"> Email : </label><input type="email" name="email" id="email" required autofocus></p>
+                            <p>Your message:</p>
+                            <p><textarea name="message" id="msg" rows="15" cols="25" placeholder="Type here"></textarea></p>
+                            <button type="submit">Send</button>
+                            <button type="reset"> reset </button>
+        
+                        </form>
+                    </fieldset><br>
+                </section>
+                <section id="location">
+                    <h2>Our Location:</h2>
+                    <p>
+                        555,tacos_and_drink street, <br>
+                        United states
+                    </p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <a href="#">Back to top!</a>
+        </footer>
+    </body>
+
+</html>
